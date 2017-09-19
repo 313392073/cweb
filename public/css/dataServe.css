@@ -1,0 +1,438 @@
+html,
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+.contain {
+  font-family: '微软雅黑';
+  font-size: 16px;
+}
+.contain .banner {
+  width: 100%;
+}
+.contain .banner img {
+  width: 100%;
+}
+.contain .topbar .navbar {
+  border: none;
+  border-radius: 0;
+}
+@media (min-width: 1024px) {
+  .contain .topbar .navbar {
+    width: 100%;
+    min-height: 80px;
+    background: #414141;
+  }
+  .contain .topbar .navbar #navList {
+    width: 80%;
+    min-width: 1000px;
+    margin: 0 auto;
+    height: 80px!important;
+  }
+  .contain .topbar .navbar #navList ul {
+    width: 100%;
+    line-height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contain .topbar .navbar #navList ul li {
+    background-image: url("../image/index/btn_03.png");
+    width: 20%;
+    max-width: 260px;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+  }
+  .contain .topbar .navbar #navList ul li.act {
+    background-image: url("../image/index/btn_01.png") !important;
+  }
+  .contain .topbar .navbar #navList ul li.act > a {
+    color: #5c0202;
+  }
+  .contain .topbar .navbar #navList ul li.ltext {
+    margin-top: -20px;
+    height: 111px;
+    max-width: 192px;
+    background-image: url("../image/index/btn_02.png");
+    background-size: contain;
+  }
+  .contain .topbar .navbar #navList ul li.ltext > a {
+    margin-top: -10px;
+    line-height: 40px;
+  }
+  .contain .topbar .navbar #navList ul li a {
+    padding-top: 22px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #bbfff9;
+  }
+  .contain .topbar .navbar #navList ul li a span {
+    display: block;
+  }
+  .contain .topbar .navbar #navList ul li a span.desc {
+    font-family: Arial;
+    margin-top: 8px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contain .topbar .navbar {
+    min-height: 80px;
+    background: #414141;
+    width: 100%;
+  }
+  .contain .topbar .navbar #navList ul {
+    width: 100%;
+    height: 100%;
+  }
+  .contain .topbar .navbar #navList ul li {
+    width: 20%;
+    height: 80px;
+    background-image: url("../image/index/btn_03.png");
+  }
+  .contain .topbar .navbar #navList ul li.act {
+    background-image: url("../image/index/btn_01.png") !important;
+  }
+  .contain .topbar .navbar #navList ul li.act > a {
+    color: #5c0202;
+  }
+  .contain .topbar .navbar #navList ul li a {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 24px;
+    color: #bbfff9;
+  }
+  .contain .topbar .navbar #navList ul li a span {
+    display: block;
+  }
+  .contain .topbar .navbar #navList ul li a span.desc {
+    display: none;
+  }
+  .contain .topbar .navbar #navList ul li.ltext {
+    max-width: 140px;
+    border-top-right-radius: 8px;
+    height: 96px;
+    background-image: url("../image/index/btn_02.png");
+    background-size: cover;
+    margin-top: -10px;
+    margin-bottom: -8px;
+  }
+  .contain .topbar .navbar #navList ul li.ltext > a {
+    margin-top: -6px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .contain .topbar .navbar .navbar-header {
+    background-color: #015cab;
+  }
+  .contain .topbar .navbar .navbar-header #navLeft {
+    margin-left: 30px;
+    line-height: 50px;
+    color: #bbfff9;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .contain .topbar .navbar .navbar-header #navLeft:hover {
+    color: #fff;
+  }
+  .contain .topbar .navbar #navList {
+    background-color: #015cab;
+  }
+  .contain .topbar .navbar #navList ul li a {
+    color: #bbfff9;
+  }
+  .contain .topbar .navbar #navList ul li a:hover {
+    color: #fff;
+  }
+}
+.contain .main {
+  width: 100%;
+}
+.contain .footer {
+  width: 100%;
+  padding-top: 38px;
+  background-color: #414141;
+}
+.contain .footer .fmain {
+  width: 100%;
+  height: 100%;
+  background-color: #6bc2e6;
+}
+.contain .footer .fmain .xfooter p {
+  color: #fefefe;
+  text-align: center;
+  line-height: 30px;
+}
+.contain .footer .fmain .xfooter p.ftitle {
+  padding-top: 20px;
+  font-size: 30px;
+}
+.contain .footer .fmain .xfooter p.bgpic {
+  width: 80%;
+  height: 21px;
+  background: url("../image/index/icon_01.png") no-repeat center center;
+  margin: 10px auto 20px;
+}
+.contain .footer .fmain .xfooter p.copyright {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.contain .footer .fmain .xfooter ul.ftext > li a {
+  color: #fefefe;
+}
+@media (min-width: 1024px) {
+  .contain .footer .fmain .xfooter ul.ftext {
+    margin: 20px auto 10px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li {
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    flex: 1;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li > a {
+    display: flex;
+    padding: 60px 50px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li > a > img {
+    display: block;
+    width: 68px;
+    margin-bottom: 15px;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li > a > span {
+    color: #fefefe;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li.qrcode > a {
+    padding: 0;
+  }
+  .contain .footer .fmain .xfooter ul.ftext > li.qrcode > a img {
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 100px;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contain .footer {
+    width: 100%;
+  }
+  .contain .footer .ftext {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .contain .footer .ftext > li {
+    text-align: center;
+    width: 50%;
+    float: left;
+  }
+  .contain .footer .ftext > li a {
+    display: block;
+    height: 130px;
+  }
+  .contain .footer .ftext > li a > img {
+    display: block;
+    width: 80px;
+    margin: 10px auto;
+  }
+  .contain .footer .ftext > li a.fftext > img {
+    height: 63px;
+  }
+  .contain .footer .ftext > li a.fftel > img {
+    height: 87px;
+  }
+  .contain .footer .ftext > li.qrcode {
+    width: 100%;
+  }
+  .contain .footer .ftext > li.qrcode a {
+    height: auto;
+  }
+  .contain .footer .ftext > li.qrcode a img {
+    width: 160px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .contain .footer .fmain ul.ftext {
+    position: relative;
+    margin-bottom: 140px;
+  }
+  .contain .footer .fmain ul.ftext li {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contain .footer .fmain ul.ftext li a {
+    display: flex;
+    align-items: center;
+  }
+  .contain .footer .fmain ul.ftext li a > img {
+    margin-right: 20px;
+  }
+  .contain .footer .fmain ul.ftext li.qrcode {
+    position: absolute;
+    bottom: -140px;
+  }
+  .contain .footer .fmain ul.ftext li.qrcode a {
+    justify-content: center;
+  }
+  .contain .footer .fmain ul.ftext li.qrcode a > img {
+    width: 120px;
+    margin-left: 50%;
+    margin-left: 60px;
+  }
+}
+.main {
+  background-color: #fffff8;
+  background-image: url("../image/index/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 170px;
+  background-size: 40% auto;
+}
+.main .tipbtn {
+  width: 100%;
+}
+.main .tipbtn ul {
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+.main .tipbtn ul li {
+  width: 25%;
+  min-height: 130px;
+  max-height: 170px;
+  flex: 1;
+  background: url("../image/index/tip.png") no-repeat center center;
+  background-size: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .tipbtn ul li.tiplast {
+  margin-right: 0;
+}
+.main .tipbtn ul li a {
+  color: #bef5ff;
+}
+@media (min-width: 1024px) {
+  .main .tipbtn ul {
+    margin: 0 auto;
+  }
+  .main .tipbtn ul li {
+    min-width: 240px;
+    max-width: 300px;
+    margin: 0 10px;
+    background-size: 100%;
+  }
+  .main .tipbtn ul li a {
+    font-size: 24px;
+  }
+  .main .pro {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .main .pro ul.prolist {
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .pro ul.prolist li {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .main .pro ul.prolist li a {
+    width: 100%;
+  }
+  .main .pro ul.prolist li a img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .main .pro ul.prolist li a img.picleft {
+    margin-right: 25px;
+  }
+  .main .pro ul.prolist li a img.picright {
+    margin-left: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main .tipbtn ul li {
+    min-width: 192px;
+    background-size: 100%;
+  }
+  .main .pro {
+    width: 100%;
+  }
+  .main .pro ul.prolist {
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .pro ul.prolist li {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .main .pro ul.prolist li a {
+    width: 100%;
+  }
+  .main .pro ul.prolist li a img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .main .pro ul.prolist li a img.picleft {
+    margin-right: 20px;
+  }
+  .main .pro ul.prolist li a img.picright {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main .tipbtn {
+    width: 100%;
+  }
+  .main .tipbtn ul {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .tipbtn ul li {
+    float: left;
+    width: 50%;
+    background-size: 100%;
+  }
+  .main .pro {
+    width: 100%;
+  }
+  .main .pro ul.prolist {
+    width: 100%;
+  }
+  .main .pro ul.prolist li {
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+  }
+  .main .pro ul.prolist li a img {
+    width: 80%;
+  }
+}

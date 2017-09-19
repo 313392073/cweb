@@ -1,0 +1,148 @@
+@import "core";
+@import "index";
+.main{
+  background-color: #fffff8;
+  background-image: url("../image/index/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 170px;
+  background-size: 40% auto;
+  .tipbtn{
+    width: 100%;
+    ul{
+      display: flex;
+      width: auto;
+      margin: 0 auto;
+      justify-content: center;
+      li{
+        width: 25%;
+        min-height: 130px;
+        max-height: 170px;
+        flex: 1;
+        background: url("../image/index/tip.png") no-repeat center center;
+        background-size: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.tiplast{
+          margin-right: 0;
+        }
+        a{
+          color: #bef5ff;
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    .tipbtn{
+      ul{
+        margin: 0 auto;
+        li{
+          min-width: 240px;
+          max-width: 300px;
+          margin:0 10px;
+          background-size: @size;
+          a{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .pro{
+      width: @size;
+      margin: 20px 0;
+      ul.prolist{
+        width: @size;
+        overflow: hidden;
+        li{
+          width: 50%;
+          float: left;
+          text-align: center;
+          a{
+            width: @size;
+            img{
+              display: block;
+              width: 60%;
+              margin: 0 auto;
+              padding: 15px;
+              &.picleft{
+                margin-right: 25px;
+              }
+              &.picright{
+                margin-left: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .tipbtn{
+      ul{
+        li{
+          min-width: 192px;
+          background-size: @size;
+        }
+      }
+    }
+    .pro{
+      width: @size;
+      ul.prolist{
+        width: @size;
+        overflow: hidden;
+        li{
+          width: 50%;
+          float: left;
+          text-align: center;
+          a{
+            width: @size;
+            img{
+              display: block;
+              width: 60%;
+              margin: 0 auto;
+              padding: 15px;
+              &.picleft{
+                margin-right: 20px;
+              }
+              &.picright{
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .tipbtn{
+      width: @size;
+      ul{
+        display: block;
+        width: @size;
+        overflow: hidden;
+        li{
+          float: left;
+          width: 50%;
+          background-size: @size;
+        }
+      }
+    }
+    .pro{
+      width: @size;
+      ul.prolist{
+        width: @size;
+        li{
+          width: 90%;
+          margin: 15px auto;
+          text-align: center;
+          a{
+            img{
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
