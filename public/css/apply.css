@@ -332,29 +332,12 @@ li {
 .main .tipbtn ul li a {
   color: #bef5ff;
 }
-.main .serve {
+.main .apply {
   width: 100%;
 }
-.main .serve .box {
-  padding-top: 80px;
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.main .serve .box .analysis {
-  background: url("../image/dataServe/idata_03.png") no-repeat center;
-  background-size: contain;
-  position: relative;
-  color: #ffffff;
-  font-size: 14px;
-}
-.main .serve .box .bgpic {
-  position: absolute;
-  width: 400px;
-  height: 450px;
-  background-image: url("../image/dataServe/pic_03.png");
-  right: -178px;
-  bottom: -70px;
+.main .apply .apply_box {
+  width: 90%;
+  margin: 20px auto;
 }
 @media (min-width: 1024px) {
   .main .tipbtn ul {
@@ -369,74 +352,45 @@ li {
   .main .tipbtn ul li a {
     font-size: 24px;
   }
-  .main .serve .box .analysis {
-    width: 676px;
-    height: 450px;
-    margin: 70px auto;
-  }
-  .main .serve .box .analysis .licon {
-    width: 240px;
-    height: auto;
-    position: absolute;
-    top: -62px;
-    left: -119px;
-  }
-  .main .serve .box .analysis .licon img {
-    width: 100%;
-  }
-  .main .serve .box .analysis .ricon {
-    width: 180px;
-    height: 60px;
-    line-height: 56px;
-    position: absolute;
-    right: 36px;
-    top: 0;
-    color: #a95307;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    background: url("../image/dataServe/idata_02.png") no-repeat center;
-    background-size: contain;
-  }
-  .main .serve .box .analysis .stext {
-    padding: 50px;
-    text-align: center;
-  }
-  .main .serve .box .analysis .stext .sask {
-    padding: 10px 0;
-    color: #feffc6;
-    font-size: 18px;
-    line-height: 30px;
-    background: url("../image/dataServe/idata_04.png") no-repeat bottom;
-    background-size: 60%;
-    margin-bottom: 5px;
-  }
-  .main .serve .box .analysis .stext .scontent {
-    border: 1px solid #00ffcd;
-    border-radius: 8px;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-  }
-  .main .serve .box .analysis .stext .spec {
-    padding: 60px 10px;
-  }
-  .main .serve .box .analysis .btext {
+  .main .apply {
     width: 90%;
     margin: 0 auto;
+  }
+  .main .apply .apply_box {
     overflow: hidden;
   }
-  .main .serve .box .analysis .btext p {
+  .main .apply .apply_box .licon {
+    padding-top: 20px;
     float: left;
+    width: 30%;
+    max-width: 280px;
+    color: #5c0202;
   }
-  .main .serve .box .analysis .btext p.dtext {
-    width: 20%;
-    margin-right: 45px;
+  .main .apply .apply_box .licon img {
+    width: 100%;
+    height: auto;
+  }
+  .main .apply .apply_box .licon p {
+    font-family: Cambria;
+    text-indent: 25px;
+  }
+  .main .apply .apply_box .licon p.atitle {
+    font-family: 微软雅黑;
     font-size: 20px;
+    letter-spacing: 5px;
   }
-  .main .serve .box .analysis .btext p.ptext {
+  .main .apply .apply_box .rtext {
+    float: right;
     width: 70%;
-    color: #00ffcd;
+  }
+  .main .apply .apply_box .rtext p {
+    width: 634px;
+    background: url("../image/apply/apply_05.png") no-repeat center;
+    background-size: contain;
+    height: 320px;
+    margin: 0 auto;
+    padding: 70px 50px;
+    color: #fff6d2;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -444,77 +398,48 @@ li {
     min-width: 192px;
     background-size: 100%;
   }
-  .main .serve .box .analysis {
-    width: 550px;
-    height: 320px;
-    margin: 20px auto 80px;
-  }
-  .main .serve .box .analysis .licon {
-    width: 160px;
-    height: auto;
-    position: absolute;
-    top: -54px;
-    left: -68px;
-  }
-  .main .serve .box .analysis .licon img {
+  .main .apply {
     width: 100%;
   }
-  .main .serve .box .analysis .ricon {
-    width: 140px;
-    height: 50px;
-    line-height: 48px;
-    position: absolute;
-    right: 32px;
-    top: 0;
-    color: #a95307;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    background: url("../image/dataServe/idata_02.png") no-repeat center;
-    background-size: contain;
-  }
-  .main .serve .box .analysis .stext {
-    padding: 24px 24px 10px;
-    text-align: center;
-  }
-  .main .serve .box .analysis .stext .sask {
-    padding: 10px 0;
-    color: #feffc6;
-    font-size: 18px;
-    line-height: 30px;
-    background: url("../image/dataServe/idata_04.png") no-repeat bottom;
-    background-size: 60%;
-    margin-bottom: 5px;
-  }
-  .main .serve .box .analysis .stext .scontent {
-    font-size: 12px;
-    border: 1px solid #00ffcd;
-    border-radius: 8px;
-    width: 90%;
+  .main .apply .apply_box {
+    width: 92%;
     margin: 10px auto;
-    padding: 10px;
-  }
-  .main .serve .box .analysis .stext .spec {
-    padding: 47px 10px;
-  }
-  .main .serve .box .analysis .btext {
-    width: 90%;
-    margin: 0 auto;
     overflow: hidden;
+    padding-bottom: 15px;
   }
-  .main .serve .box .analysis .btext p {
+  .main .apply .apply_box .licon {
     float: left;
-  }
-  .main .serve .box .analysis .btext p.dtext {
     width: 30%;
-    margin-right: 20px;
-    margin-top: 8px;
-    font-size: 20px;
+    height: 300px;
   }
-  .main .serve .box .analysis .btext p.ptext {
-    font-size: 12px;
-    width: 65%;
-    color: #00ffcd;
+  .main .apply .apply_box .licon img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin: 20px auto;
+  }
+  .main .apply .apply_box .licon p {
+    text-align: center;
+    font-family: Cambria;
+  }
+  .main .apply .apply_box .licon p.atitle {
+    font-family: 微软雅黑;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .main .apply .apply_box .rtext {
+    float: right;
+    width: 70%;
+    font-size: 14px;
+  }
+  .main .apply .apply_box .rtext p {
+    width: 470px;
+    background: url("../image/apply/apply_05.png") no-repeat center;
+    background-size: contain;
+    height: 320px;
+    margin: 0 auto;
+    padding: 70px 50px;
+    color: #fff6d2;
   }
 }
 @media (max-width: 767px) {
@@ -531,75 +456,36 @@ li {
     width: 50%;
     background-size: 100%;
   }
-  .main .serve .box {
-    padding-top: 20px;
+  .main .apply {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
-  .main .serve .box .analysis {
-    background-color: #101b4b;
-    background-image: none;
-    border: 1px solid #00b3ee;
+  .main .apply .apply_box {
     width: 90%;
-    flex: 1;
-    margin: 10px auto 30px;
-    font-size: 12px;
-    border: 2px solid #23adfc;
-    box-shadow: 0 0 8px #218fd3;
-    border-radius: 8px;
-  }
-  .main .serve .box .analysis .ricon {
-    width: 140px;
-    height: 50px;
-    line-height: 48px;
-    position: absolute;
-    right: 0;
-    top: -26px;
-    color: #a95307;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    background: url("../image/dataServe/idata_02.png") no-repeat center;
-    background-size: contain;
-  }
-  .main .serve .box .analysis .stext {
-    padding: 24px 24px 10px;
-    text-align: center;
-  }
-  .main .serve .box .analysis .stext .sask {
-    padding: 10px 0;
-    color: #feffc6;
-    font-size: 18px;
-    line-height: 30px;
-    background: url("../image/dataServe/idata_04.png") no-repeat bottom;
-    background-size: 60%;
-    margin-bottom: 5px;
-  }
-  .main .serve .box .analysis .stext .scontent {
-    font-size: 14px;
-    border: 1px solid #00ffcd;
-    border-radius: 8px;
-    width: 100%;
-    margin: 10px auto;
-    padding: 10px 5px;
-  }
-  .main .serve .box .analysis .stext .spec {
-    padding: 47px 10px;
-  }
-  .main .serve .box .analysis .btext {
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .main .serve .box .analysis .btext p.dtext {
-    font-size: 22px;
-  }
-  .main .serve .box .analysis .btext p.ptext {
-    font-size: 14px;
-    color: #00ffcd;
-    line-height: 20px;
     margin: 15px auto;
+  }
+  .main .apply .apply_box .licon {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main .apply .apply_box .licon img {
+    width: 50%;
+    max-width: 280px;
+    margin-bottom: 10px;
+  }
+  .main .apply .apply_box .licon p {
+    color: #b05555 ;
+    line-height: 30px;
+  }
+  .main .apply .apply_box .licon p.atitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .main .apply .apply_box .rtext {
+    border: 2px solid #5c0202;
+    box-shadow: 0 0 5px #5c0202;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 14px;
   }
 }
