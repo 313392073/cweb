@@ -50,6 +50,7 @@ li {
     height: 100%;
     line-height: 80px;
     text-align: center;
+    cursor: pointer;
   }
   .contain .topbar .navbar #navList ul li.act {
     background-image: url("../image/common/btn_01.png") !important;
@@ -63,6 +64,10 @@ li {
     max-width: 192px;
     background-image: url("../image/common/btn_02.png");
     background-size: contain;
+    transition: all 0.4s;
+  }
+  .contain .topbar .navbar #navList ul li.ltext:hover {
+    transform: scale(1.4);
   }
   .contain .topbar .navbar #navList ul li.ltext > a {
     margin-top: -10px;
@@ -529,7 +534,12 @@ li {
   .main .tipbtn ul li {
     float: left;
     width: 50%;
+    background: url("../image/index/icon_yd.png") no-repeat center center;
     background-size: 100%;
+  }
+  .main .tipbtn ul li a {
+    font-size: 16px;
+    font-weight: bold;
   }
   .main .serve .box {
     padding-top: 20px;

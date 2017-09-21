@@ -4,10 +4,8 @@
   background-color: #fffff8;
   background-image: url("../image/common/bg.jpg");
   background-repeat: no-repeat;
-  background-position: center 500px;
+  background-position: center 600px;
   background-size: 40% auto;
-  height: 500px;
-  border: 1px solid red;
   .tipbtn {
     width: 100%;
     ul {
@@ -50,6 +48,120 @@
         }
       }
     }
+    .team{
+      width: @size;
+      .team_box{
+        width: 80%;
+        margin: 0 auto;
+        .about{
+          width: 1020px;
+          height: 430px;
+          margin: 0 auto;
+          background: url("../image/team/team_01.png") no-repeat center;
+          background-size: contain;
+          position: relative;
+          color: #fff;
+          border: 1px solid transparent;
+          .about_title{
+            font-size: 40px;
+            font-weight: bold;
+            color: #00ffcd;
+            margin-top: 30px;
+            margin-left: 100px;
+          }
+          .about_desc{
+            width: 80%;
+            margin: 50px auto;
+            border-radius: 8px;
+            padding: 15px;
+          }
+        }
+        .culture{
+          height: 600px;
+          width: 1000px;
+          margin: 10px auto;
+          .cul_title{
+            font-size: 20px;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            word-spacing: 3px;
+            text-indent: 20px;
+            .cul_tit{
+              margin-bottom: 5px;
+              margin-left: 20px;
+              height: 50px;
+              background: url("../image/team/team_cul.png") no-repeat left;
+              background-size: contain;
+            }
+          }
+          .cul_bgpic{
+            width: @size;
+            height: 484px;
+            margin: 0 auto;
+            background: url("../image/team/bg_team_03.png") no-repeat center;
+            background-size: contain;
+          }
+        }
+        .intro{
+          height: 450px;
+          width: 1000px;
+          margin: 10px auto;
+          .intro_title{
+            font-size: 20px;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            word-spacing: 3px;
+            text-indent: 20px;
+            p.intro_tit{
+              margin-bottom: 5px;
+              margin-left: 20px;
+              height: 50px;
+              background: url("../image/team/team_intro.png") no-repeat left;
+              background-size: contain;
+            }
+          }
+          .intro_pic{
+            overflow: hidden;
+            width: @size;
+            height: 350px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &>div{
+              margin: 0 5px;
+              flex: 1;
+              height: @size;
+              background: url("../image/team/team_03.png") no-repeat center;
+              background-size: contain;
+              position: relative;
+              p{
+                height: 34px;
+                margin-top: 10px;
+                &.team_g{
+                  background: url("../image/team/team_g.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_c{
+                  background: url("../image/team/team_c.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_h{
+                  background: url("../image/team/team_h.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_q{
+                  background: url("../image/team/team_q.png") no-repeat center;
+                  background-size: contain;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -58,6 +170,115 @@
         li {
           min-width: 192px;
           background-size: @size;
+        }
+      }
+    }
+    .team{
+      width: @size;
+      .team_box{
+        width: 730px;
+        margin: 0 auto;
+        .about{
+          width: @size;
+          height: 280px;
+          background: url("../image/team/team_01.png") no-repeat center;
+          background-size: contain;
+          position: relative;
+          color: #fff;
+          border: 1px solid transparent;
+          margin-bottom: 20px;
+          p.about_title{
+            font-size: 26px;
+            font-weight: bold;
+            color: #00ffcd;
+            margin-top: 16px;
+            margin-left: 70px;
+          }
+          p.about_desc{
+            width: 80%;
+            margin: 5px auto;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 14px;
+          }
+        }
+        .culture{
+          margin-bottom: 20px;
+          .cul_title{
+            font-size: 14px;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            word-spacing: 3px;
+            text-indent: 30px;
+            .cul_tit{
+              margin-bottom: 5px;
+              margin-left: 30px;
+              height: 34px;
+              background: url("../image/team/team_cul.png") no-repeat left;
+              background-size: contain;
+            }
+          }
+          .cul_bgpic{
+            width: @size;
+            height: 330px;
+            margin: 0 auto;
+            background: url("../image/team/bg_team_03.png") no-repeat center;
+            background-size: contain;
+          }
+        }
+        .intro{
+          .intro_title{
+            font-size: 16px;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            word-spacing: 3px;
+            text-indent: 30px;
+            p.intro_tit{
+              margin-bottom: 5px;
+              margin-left: 30px;
+              height: 34px;
+              background: url("../image/team/team_intro.png") no-repeat left;
+              background-size: contain;
+            }
+          }
+          .intro_pic{
+            width: @size;
+            overflow: hidden;
+            margin: 0 auto;
+            &>div{
+              float: left;
+              width: 45%;
+              margin: 10px;
+              height: 400px;
+              background: url("../image/team/team_03.png") no-repeat center;
+              background-size: contain;
+              &.intro_r{
+                margin-left: 25px;
+              }
+              p{
+                height: 34px;
+                margin-top: 15px;
+                &.team_g{
+                  background: url("../image/team/team_g.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_c{
+                  background: url("../image/team/team_c.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_h{
+                  background: url("../image/team/team_h.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_q{
+                  background: url("../image/team/team_q.png") no-repeat center;
+                  background-size: contain;
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -73,7 +294,119 @@
         li{
           float: left;
           width: 50%;
+          background: url("../image/index/icon_yd.png") no-repeat center center;
           background-size: @size;
+          a{
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .team{
+      width: @size;
+      .team_box{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        .about{
+          text-align: center;
+          font-size: 16px;
+          font-weight: bold;
+          color: #0680b3;
+          font-family: Arial;
+          word-spacing: 3px;
+          text-indent: 30px;
+          .about_title{
+            font-size: 24px;
+            font-weight: bold;
+            color: #01f5c6;
+            margin-bottom: 5px;
+          }
+          .about_desc{
+            margin-top: 10px;
+            width: @size;
+            border: 2px solid #015cab;
+            border-radius: 8px;
+            height: auto;
+            box-shadow: 0 0 8px #0b3883;
+            padding: 20px 10px;
+            color: #073d51;
+            font-size: 14px;
+          }
+        }
+        .culture{
+          margin-top: 20px;
+          .cul_title{
+            width: 90%;
+            margin: 0 auto;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            .cul_tit{
+              margin-bottom: 10px;
+              height: 30px;
+              background: url("../image/team/team_cul.png") no-repeat center;
+              background-size: contain;
+            }
+          }
+          .cul_bgpic{
+            width: @size;
+            height: 400px;
+            border: 2px solid #015cab;
+            border-radius: 8px;
+            box-shadow: 0 0 8px #0b3883;
+            padding: 20px 10px;
+            margin-top: 10px;
+          }
+        }
+        .intro{
+          margin-top: 20px;
+          .intro_title{
+            width: 90%;
+            margin: 0 auto;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            color: #0680b3;
+            font-family: Arial;
+            p.intro_tit{
+              margin-bottom: 10px;
+              height: 30px;
+              background: url("../image/team/team_intro.png") no-repeat center;
+              background-size: contain;
+            }
+          }
+          .intro_pic{
+            &>div{
+              height: 380px;
+              margin: 10px auto;
+              background: url("../image/team/team_03.png") no-repeat center;
+              background-size: contain;
+              padding-top: 12px;
+              p{
+                height: 30px;
+                &.team_g{
+                  background: url("../image/team/team_g.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_c{
+                  background: url("../image/team/team_c.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_h{
+                  background: url("../image/team/team_h.png") no-repeat center;
+                  background-size: contain;
+                }
+                &.team_q{
+                  background: url("../image/team/team_q.png") no-repeat center;
+                  background-size: contain;
+                }
+              }
+            }
+          }
         }
       }
     }

@@ -308,194 +308,211 @@ li {
   background-color: #fffff8;
   background-image: url("../image/common/bg.jpg");
   background-repeat: no-repeat;
-  background-position: center 500px;
+  background-position: center 600px;
   background-size: 40% auto;
 }
-.main .tipbtn {
-  width: 100%;
+.main .cop_top {
+  width: 80%;
+  margin: 0 auto 30px;
 }
-.main .tipbtn ul {
-  display: flex;
-  width: auto;
-  margin: 0 auto;
-  justify-content: center;
+.main .cop_top .cop_map {
+  background: url("../image/cop/cop_03.png") no-repeat center;
+  background-size: contain;
 }
-.main .tipbtn ul li {
-  width: 25%;
-  min-height: 130px;
-  max-height: 170px;
-  flex: 1;
-  background: url("../image/index/tip.png") no-repeat center center;
-  background-size: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main .tipbtn ul li.tiplast {
-  margin-right: 0;
-}
-.main .tipbtn ul li a {
-  color: #bef5ff;
-}
-.main .apply {
-  width: 100%;
-}
-.main .apply .apply_box {
-  width: 90%;
-  margin: 20px auto;
+.main .cop_top .cop_ypic {
+  background: url("../image/cop/cop_01.png") no-repeat center;
+  background-size: contain;
 }
 @media (min-width: 1024px) {
-  .main .tipbtn ul {
+  .main .cop_top .cop_map {
+    height: 360px;
     margin: 0 auto;
   }
-  .main .tipbtn ul li {
-    min-width: 240px;
-    max-width: 300px;
-    margin: 0 10px;
-    background-size: 100%;
-  }
-  .main .tipbtn ul li a {
-    font-size: 24px;
-  }
-  .main .apply {
-    width: 90%;
+  .main .cop_top .cop_ypic {
+    width: 1000px;
+    height: 450px;
     margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 170px;
   }
-  .main .apply .apply_box {
-    overflow: hidden;
+  .main .cop_main {
+    height: 100px;
+    text-align: center;
+    background-color: rgba(110, 130, 174, 0.4);
+    font-sizeht: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3px;
   }
-  .main .apply .apply_box .licon {
-    padding-top: 20px;
-    float: left;
+  .main .cop_main .cop_title {
+    font-size: 36px;
+    border-bottom: 2px solid #035174;
+    width: 300px;
+    margin: 10px auto;
+    color: #80d0f4;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4b6c77;
+  }
+  .main .cop_pro {
+    width: 80%;
+    margin: 40px auto;
+  }
+  .main .cop_pro .pro_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .cop_pro .pro_box > div {
+    flex: 1;
     width: 30%;
-    max-width: 280px;
-    color: #5c0202;
-  }
-  .main .apply .apply_box .licon img {
-    width: 100%;
-    height: auto;
-  }
-  .main .apply .apply_box .licon p {
-    font-family: Cambria;
-    text-indent: 25px;
-  }
-  .main .apply .apply_box .licon p.atitle {
-    font-family: 微软雅黑;
-    font-size: 20px;
-    letter-spacing: 5px;
-  }
-  .main .apply .apply_box .rtext {
-    float: right;
-    width: 70%;
-  }
-  .main .apply .apply_box .rtext p {
-    width: 634px;
-    background: url("../image/apply/apply_05.png") no-repeat center;
+    height: 300px;
+    margin: 10px;
+    background: url("../image/cop/cop_02.png") no-repeat center;
     background-size: contain;
-    height: 320px;
-    margin: 0 auto;
-    padding: 70px 50px;
-    color: #fff6d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .main .cop_pro .pro_box > div img {
+    width: 40%;
+    height: auto;
+    cursor: pointer;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .main .tipbtn ul li {
-    min-width: 192px;
-    background-size: 100%;
-  }
-  .main .apply {
-    width: 100%;
-  }
-  .main .apply .apply_box {
-    width: 92%;
-    margin: 10px auto;
-    overflow: hidden;
-    padding-bottom: 15px;
-  }
-  .main .apply .apply_box .licon {
-    float: left;
-    width: 30%;
-    height: 300px;
-  }
-  .main .apply .apply_box .licon img {
-    width: 100%;
-    max-width: 180px;
-    height: auto;
-    margin: 20px auto;
-  }
-  .main .apply .apply_box .licon p {
-    text-align: center;
-    font-family: Cambria;
-  }
-  .main .apply .apply_box .licon p.atitle {
-    font-family: 微软雅黑;
-    font-size: 20px;
-    letter-spacing: 5px;
-  }
-  .main .apply .apply_box .rtext {
-    float: right;
-    width: 70%;
-    font-size: 14px;
-  }
-  .main .apply .apply_box .rtext p {
-    width: 470px;
-    background: url("../image/apply/apply_05.png") no-repeat center;
-    background-size: contain;
-    height: 320px;
+  .main .cop_top .cop_map {
+    height: 250px;
     margin: 0 auto;
-    padding: 70px 50px;
-    color: #fff6d2;
+  }
+  .main .cop_top .cop_ypic {
+    width: 610px;
+    height: 380px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    text-align: center;
+  }
+  .main .cop_main {
+    height: 100px;
+    text-align: center;
+    background-color: rgba(110, 130, 174, 0.4);
+    font-sizeht: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+  .main .cop_main .cop_title {
+    font-size: 36px;
+    border-bottom: 2px solid #035174;
+    width: 300px;
+    margin: 10px auto;
+    color: #80d0f4;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4b6c77;
+  }
+  .main .cop_pro {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main .cop_pro .pro_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .cop_pro .pro_box > div {
+    flex: 1;
+    width: 30%;
+    height: 180px;
+    margin: 10px;
+    background: url("../image/cop/cop_02.png") no-repeat center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .main .cop_pro .pro_box > div img {
+    width: 40%;
+    height: auto;
+    cursor: pointer;
   }
 }
 @media (max-width: 767px) {
-  .main .tipbtn {
-    width: 100%;
-  }
-  .main .tipbtn ul {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-  }
-  .main .tipbtn ul li {
-    float: left;
-    width: 50%;
-    background: url("../image/index/icon_yd.png") no-repeat center center;
-    background-size: 100%;
-  }
-  .main .tipbtn ul li a {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .main .apply {
-    width: 100%;
-  }
-  .main .apply .apply_box {
+  .main .cop_top {
     width: 90%;
-    margin: 15px auto;
   }
-  .main .apply .apply_box .licon {
-    width: 100%;
+  .main .cop_top .cop_map {
+    height: 100px;
     margin: 0 auto;
+  }
+  .main .cop_top .cop_ypic {
+    margin-top: 10px;
+    background: none;
+    background-color: #41aafe;
+    border: 2px solid #acaaad;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #373f43;
+    padding: 15px 10px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .main .cop_main {
+    height: 100px;
     text-align: center;
+    background-color: rgba(110, 130, 174, 0.4);
+    font-sizeht: 18px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3px;
   }
-  .main .apply .apply_box .licon img {
-    width: 50%;
-    max-width: 280px;
-    margin-bottom: 10px;
+  .main .cop_main .cop_title {
+    font-size: 30px;
+    border-bottom: 2px solid #035174;
+    width: 260px;
+    margin: 10px auto;
+    color: #80d0f4;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4b6c77;
   }
-  .main .apply .apply_box .licon p {
-    color: #b05555 ;
-    line-height: 30px;
+  .main .cop_pro {
+    width: 90%;
+    margin: 0 auto;
   }
-  .main .apply .apply_box .licon p.atitle {
+  .main .cop_pro .pro_box {
+    width: 100%;
+  }
+  .main .cop_pro .pro_box .pro_l {
+    width: 100%;
+    height: 210px;
+    background: url("../image/cop/cop_02.png") no-repeat center;
+    background-size: contain;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-size: 20px;
     font-weight: bold;
+    color: #fff;
   }
-  .main .apply .apply_box .rtext {
-    border: 2px solid #5c0202;
-    box-shadow: 0 0 5px #5c0202;
-    border-radius: 8px;
-    padding: 20px;
-    font-size: 14px;
+  .main .cop_pro .pro_box .pro_l img {
+    width: 36%;
+    max-width: 135px;
+    min-width: 120px;
+    cursor: pointer;
   }
 }

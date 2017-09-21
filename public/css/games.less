@@ -1,0 +1,25 @@
+@import "core";
+@import "common";
+.main{
+  width: @size;
+
+
+  @media (min-width: 1024px) {
+    .game_video{
+      width: 1000px;
+      height: 500px;
+      margin: 0 auto;
+      border: 1px solid red;
+      background: url("../image/game/game_01.png") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+
+  }
+
+  @media (max-width: 767px) {
+
+  }
+}

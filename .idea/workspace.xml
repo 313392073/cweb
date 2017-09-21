@@ -2,65 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13742595-e66d-47b7-b167-9e5a8d138c0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/apply/apply_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/apply/apply_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/apply/apply_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/apply/apply_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/apply/apply_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/dataServe/idata_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/dataServe/idata_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/dataServe/idata_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/dataServe/idata_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/game/game_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/game/game_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/game/game_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/pro_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apply.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/apply.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/common.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/team.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/team.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/dataServe.css" afterPath="$PROJECT_DIR$/public/css/common.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/banner_01.jpg" afterPath="$PROJECT_DIR$/public/image/common/banner_01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/bg.jpg" afterPath="$PROJECT_DIR$/public/image/common/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/btn_01.png" afterPath="$PROJECT_DIR$/public/image/common/btn_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/btn_02.png" afterPath="$PROJECT_DIR$/public/image/common/btn_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/btn_03.png" afterPath="$PROJECT_DIR$/public/image/common/btn_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_01.png" afterPath="$PROJECT_DIR$/public/image/common/icon_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_02.png" afterPath="$PROJECT_DIR$/public/image/common/icon_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_03.png" afterPath="$PROJECT_DIR$/public/image/common/icon_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_04.png" afterPath="$PROJECT_DIR$/public/image/common/icon_04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_05.png" afterPath="$PROJECT_DIR$/public/image/common/icon_05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/icon_er.png" afterPath="$PROJECT_DIR$/public/image/common/icon_er.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/image/index/pic_03.png" afterPath="$PROJECT_DIR$/public/image/dataServe/pic_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/common/icon_yd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/cop/cop_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/index/icon_yd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/bg_team_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_cul.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_intro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/team/team_q.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cooperation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/games.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/cooperation.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/games.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/image/game/game_01.png" afterPath="$PROJECT_DIR$/public/image/game/game_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/image/team/team_01.png" afterPath="$PROJECT_DIR$/public/image/team/team_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apply.html" afterPath="$PROJECT_DIR$/apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.html" afterPath="$PROJECT_DIR$/common.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataServe.html" afterPath="$PROJECT_DIR$/dataServe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/apply.css" afterPath="$PROJECT_DIR$/public/css/apply.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/apply.less" afterPath="$PROJECT_DIR$/public/css/apply.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/common.css" afterPath="$PROJECT_DIR$/public/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/common.less" afterPath="$PROJECT_DIR$/public/css/common.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/dataServe.css" afterPath="$PROJECT_DIR$/public/css/dataServe.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/dataServe.less" afterPath="$PROJECT_DIR$/public/css/dataServe.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.css" afterPath="$PROJECT_DIR$/public/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.less" afterPath="$PROJECT_DIR$/public/css/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/team.css" afterPath="$PROJECT_DIR$/public/css/team.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/team.less" afterPath="$PROJECT_DIR$/public/css/team.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,24 +58,24 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5327405">
       <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="60" column="24" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="24" />
+                <state relative-caret-position="42">
+                  <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/team.html">
+          <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+                <state relative-caret-position="2709">
+                  <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -109,11 +85,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="team.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/css/team.less">
+          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                <state relative-caret-position="126">
+                  <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/css/common.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -128,6 +116,7 @@
       <list>
         <option value="HTML File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -139,15 +128,21 @@
       <list>
         <option value="$PROJECT_DIR$/public/css/core.less" />
         <option value="$PROJECT_DIR$/appyl.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/public/css/index.less" />
-        <option value="$PROJECT_DIR$/dataServe.html" />
+        <option value="$PROJECT_DIR$/public/css/cooperation.less" />
         <option value="$PROJECT_DIR$/public/css/dataServe.less" />
-        <option value="$PROJECT_DIR$/apply.html" />
-        <option value="$PROJECT_DIR$/public/css/apply.less" />
+        <option value="$PROJECT_DIR$/public/css/index.less" />
         <option value="$PROJECT_DIR$/public/css/team.less" />
+        <option value="$PROJECT_DIR$/public/css/apply.less" />
+        <option value="$PROJECT_DIR$/public/css/games.less" />
         <option value="$PROJECT_DIR$/common.html" />
+        <option value="$PROJECT_DIR$/apply.html" />
+        <option value="$PROJECT_DIR$/cooperation.html" />
+        <option value="$PROJECT_DIR$/dataServe.html" />
+        <option value="$PROJECT_DIR$/games.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/public/js/common.js" />
+        <option value="$PROJECT_DIR$/public/css/common.less" />
       </list>
     </option>
   </component>
@@ -160,10 +155,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
-    <option name="y" value="129" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="659" />
+    <option name="y" value="44" />
+    <option name="width" value="1552" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,6 +216,24 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -236,7 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,16 +274,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\game" />
+      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\index" />
+      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\common" />
+      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\cop" />
+      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\team" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\common" />
       <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\source" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web" />
-      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\game" />
-      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\team" />
-      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\dataServe" />
-      <recent name="C:\Users\Administrator.PC-20170327QFHE\Desktop\web\public\image\cop" />
     </key>
   </component>
   <component name="RunManager">
@@ -340,23 +353,25 @@
       <updated>1505701272406</updated>
       <workItem from="1505701273606" duration="18576000" />
       <workItem from="1505784514133" duration="27349000" />
-      <workItem from="1505870988630" duration="27322000" />
+      <workItem from="1505870988630" duration="27599000" />
+      <workItem from="1505957533400" duration="28411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73247000" />
+    <option name="totallyTimeSpent" value="101935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="129" width="1940" height="1100" extended-state="0" />
+    <frame x="659" y="44" width="1552" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13185655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17970823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.5021142" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33890748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33711693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -366,7 +381,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -386,105 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2058">
-          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/bootstrap/dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/animate/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/core.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/btn_03.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/btn_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/bootstrap/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="294" column="35" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/core.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/banner_01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/btn_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/common/icon_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/image/common/icon_03.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -500,49 +415,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/index/pic_03.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/index/pic_03.png" />
     <entry file="file://$PROJECT_DIR$/public/css/common.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_03.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/dataServe.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="253" column="5" selection-start-line="240" selection-start-column="2" selection-end-line="253" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -567,22 +444,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/image/apply/apply_01.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataServe.html">
@@ -593,50 +457,249 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/bg_team_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_cul.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_h.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_c.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_g.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/team/team_q.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_07.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_06.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_05.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_04.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_08.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_09.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/cop/cop_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cooperation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/dataServe/pic_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/dataServe/idata_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/apply.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3339">
-          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+        <state relative-caret-position="37">
+          <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/css/dataServe.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="366">
+          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="75" selection-end-column="14" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/image/game/game_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/team.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="415">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/games.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cooperation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataServe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="462">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
+    <entry file="file://$PROJECT_DIR$/public/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        <state relative-caret-position="2709">
+          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding />
         </state>
       </provider>
