@@ -15,11 +15,9 @@
       justify-content: center;
       li{
         width: 25%;
-        min-height: 130px;
-        max-height: 170px;
         flex: 1;
         background: url("../image/index/tip.png") no-repeat center center;
-        background-size: 80%;
+        background-size: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -43,14 +41,20 @@
   @media (min-width: 1024px) {
     .tipbtn{
       ul{
+        width: @size;
+        height: 120px;
         margin: 0 auto;
         li{
           min-width: 240px;
           max-width: 300px;
           margin:0 10px;
-          background-size: @size;
+          height: @size;
           a{
             font-size: 24px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
           }
         }
       }
@@ -100,9 +104,18 @@
   @media (min-width: 768px) and (max-width: 1023px) {
     .tipbtn {
       ul {
+        width: @size;
+        height: 80px;
         li {
           min-width: 192px;
-          background-size: @size;
+          height: @size;
+          a{
+            font-size: 20px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
         }
       }
     }
@@ -155,15 +168,20 @@
     .tipbtn{
       width: @size;
       ul{
-        display: block;
-        width: @size;
+        width: 90%;
         overflow: hidden;
+        min-height: 160px;
+        display: block;
         li{
           float: left;
-          width: 50%; background: url("../image/index/icon_yd.png") no-repeat center center;
-          background-size: @size;
+          width: 50%;
+          background: url("../image/index/icon_yd.png") no-repeat center center;
+          background-size: contain;
+          height: 50%;
+          min-height: 80px;
+          margin-bottom: 10px;
           a{
-            font-size: 16px;
+            font-size: 20px;
             font-weight: bold;
           }
         }

@@ -19,6 +19,7 @@
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="./public/css/games.css">
+    <link rel="stylesheet" href="./public/font/css/font-awesome.min.css">
     <link rel="stylesheet" href="source/animate/animate.min.css">
     <script src="public/js/common.js"></script>
 </head>
@@ -27,8 +28,37 @@
     <!--头部-->
     <div class="header">
         <div class="banner">
-            <div>
-                <img src="public/image/common/banner_01.jpg" alt="巴山麻将">
+            <div id="lunbo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators hidden-xs">
+                    <li data-target="#lunbo" data-slide-to="0" class="active"></li>
+                    <li data-target="#lunbo" data-slide-to="1"></li>
+                    <li data-target="#lunbo" data-slide-to="2"></li>
+                    <li data-target="#lunbo" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="public/image/common/banner_01.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="public/image/common/banner_03.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="public/image/common/banner_02.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="public/image/common/banner_04.jpg" alt="...">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#lunbo" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">上一张</span>
+                </a>
+                <a class="right carousel-control" href="#lunbo" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">下一张</span>
+                </a>
             </div>
         </div>
     </div>
@@ -79,31 +109,31 @@
                 <p>Address And Contact  </p>
                 <ul class="ftext">
                     <li>
-                        <a href="" class="fftext">
-                            <img src="public/image/common/icon_02.png" alt="公司地址">
+                        <a href="" class="fftext" title="中国, 四川省成都市 高新区天府软件园G区8栋">
+                            <span class="icon-img"><i class="icon-map-marker"></i></span>
                             <span>中国, 四川省成都市 高新区天府软件园G区8栋</span>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <img src="public/image/common/icon_03.png" alt="公司邮箱">
+                        <a href="" title="s@baiyy.com">
+                            <span class="icon-img"><i class="icon-envelope-alt"></i></span>
                             <span>s@baiyy.com</span>
                         </a>
                     </li>
                     <li class="qrcode">
                         <a href="">
-                            <img src="public/image/common/icon_er.png" alt="公司邮箱">
+                            <img src="./public/image/common/icon_er.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="" class="fftel">
-                            <img src="public/image/common/icon_04.png" alt="公司电话">
+                        <a href="" class="fftel" title="180 3080 0840">
+                            <span class="icon-img"><i class="icon-phone"></i></span>
                             <span>180 3080 0840</span>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <img src="public/image/common/icon_05.png" alt="公司企鹅">
+                        <a href="" title="231 897 1816">
+                            <span class="icon-img"><i class="icon-user"></i></span>
                             <span>231 897 1816</span>
                         </a>
                     </li>

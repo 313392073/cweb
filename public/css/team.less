@@ -15,8 +15,6 @@
       justify-content: center;
       li {
         width: 25%;
-        min-height: 130px;
-        max-height: 170px;
         flex: 1;
         background: url("../image/index/tip.png") no-repeat center center;
         background-size: 80%;
@@ -36,14 +34,20 @@
   @media (min-width: 1024px) {
     .tipbtn{
       ul{
+        width: @size;
+        height: 120px;
         margin: 0 auto;
         li{
           min-width: 240px;
           max-width: 300px;
           margin:0 10px;
-          background-size: @size;
+          height: @size;
           a{
             font-size: 24px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
           }
         }
       }
@@ -165,11 +169,20 @@
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    .tipbtn {
-      ul {
-        li {
+    .tipbtn{
+      ul{
+        width: @size;
+        height: 80px;
+        li{
           min-width: 192px;
-          background-size: @size;
+          height: @size;
+          a{
+            font-size: 20px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
         }
       }
     }
@@ -191,8 +204,8 @@
             font-size: 26px;
             font-weight: bold;
             color: #00ffcd;
-            margin-top: 16px;
-            margin-left: 70px;
+            margin-top: 22px;
+            margin-left: 95px;
           }
           p.about_desc{
             width: 80%;
@@ -288,16 +301,20 @@
     .tipbtn{
       width: @size;
       ul{
-        display: block;
-        width: @size;
+        width: 90%;
         overflow: hidden;
+        min-height: 160px;
+        display: block;
         li{
           float: left;
           width: 50%;
           background: url("../image/index/icon_yd.png") no-repeat center center;
-          background-size: @size;
+          background-size: contain;
+          height: 50%;
+          min-height: 80px;
+          margin-bottom: 10px;
           a{
-            font-size: 16px;
+            font-size: 20px;
             font-weight: bold;
           }
         }
@@ -318,10 +335,10 @@
           word-spacing: 3px;
           text-indent: 30px;
           .about_title{
-            font-size: 24px;
-            font-weight: bold;
-            color: #01f5c6;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            height: 30px;
+            background: url("../image/team/team_04.png") no-repeat center;
+            background-size: contain;
           }
           .about_desc{
             margin-top: 10px;
