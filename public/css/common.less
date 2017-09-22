@@ -1,5 +1,11 @@
 @import "core";
 .contain{
+  @keyframes action {
+    from {-webkit-transform: scale(1);
+      transform: scale(1);}
+    to{-webkit-transform: scale(1.4);
+      transform: scale(1.4);}
+  }
   font-family: '微软雅黑';
   font-size: @ft;
   //轮播
@@ -31,12 +37,6 @@
   }
   //导航
   @media (min-width: 1024px) {
-    @keyframes action {
-      from {-webkit-transform: scale(1);
-        transform: scale(1);}
-      to{-webkit-transform: scale(1.4);
-        transform: scale(1.4);}
-    }
     .banner{
       #lunbo{
         .carousel-indicators{
@@ -90,7 +90,6 @@
                 max-width: 192px;
                 background-image: url("../image/common/btn_02.png");
                 background-size: contain;
-                transition: all 0.4s;
                 &:hover{
                   animation: action 0.2s ease-in 0s 4 alternate;
                   background-image: url("../image/common/btn_02.png")!important;
@@ -180,7 +179,7 @@
                 margin-top: -10px;
                 margin-bottom: -8px;
                 &:hover{
-                  transform: scale(1.4);
+                  animation: action 0.2s ease-in 0s 4 alternate;
                   background-image: url("../image/common/btn_02.png")!important;
                 }
                 &>a{
@@ -352,7 +351,6 @@
               text-decoration: none;
             }
             span{
-              transition: all 0.2s;
               &:hover{
                 color: #008bd3;
               }
