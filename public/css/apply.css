@@ -310,6 +310,7 @@ li {
   .contain .footer .ftext > li a span.icon-img {
     font-size: 68px;
     display: block;
+    margin-bottom: 10px;
   }
   .contain .footer .ftext > li.qrcode {
     width: 100%;
@@ -425,22 +426,28 @@ li {
     text-decoration: none;
   }
   .main .apply {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   .main .apply .apply_box {
+    max-width: 80%;
     overflow: hidden;
   }
   .main .apply .apply_box .licon {
+    padding-right: 20px;
     padding-top: 20px;
     float: left;
     width: 30%;
     max-width: 280px;
     color: #5c0202;
+    text-align: right;
   }
   .main .apply .apply_box .licon img {
-    width: 100%;
+    min-width: 120px;
+    max-width: 250px;
+    width: 50%;
     height: auto;
+    margin: 25px auto;
   }
   .main .apply .apply_box .licon p {
     font-family: Cambria;
@@ -452,15 +459,19 @@ li {
     letter-spacing: 5px;
   }
   .main .apply .apply_box .rtext {
-    float: right;
+    float: left;
     width: 70%;
+    height: 310px;
+    position: relative;
   }
   .main .apply .apply_box .rtext p {
-    width: 634px;
+    position: absolute;
+    right: 50px;
+    width: 90%;
+    max-width: 620px;
     background: url("../image/apply/apply_05.png") no-repeat center;
     background-size: contain;
     height: 320px;
-    margin: 0 auto;
     padding: 70px 50px;
     color: #fff6d2;
   }

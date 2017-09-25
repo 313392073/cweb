@@ -310,6 +310,7 @@ li {
   .contain .footer .ftext > li a span.icon-img {
     font-size: 68px;
     display: block;
+    margin-bottom: 10px;
   }
   .contain .footer .ftext > li.qrcode {
     width: 100%;
