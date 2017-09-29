@@ -1,0 +1,351 @@
+@import "core";
+@import "common";
+.main{
+  background-color: #fffff8;
+  background-image: url("../image/common/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 500px;
+  background-size: 40% auto;
+  .tipbtn{
+    width: 100%;
+    ul{
+      display: flex;
+      width: auto;
+      margin: 0 auto;
+      justify-content: center;
+      li{
+        width: 25%;
+        flex: 1;
+        background: url("../image/index/tip.png") no-repeat center center;
+        background-size: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.tiplast{
+          margin-right: 0;
+        }
+        a{
+          color: #bef5ff;
+        }
+      }
+    }
+  }
+
+  .serve{
+    width: @size;
+    .box{
+      padding-top: 40px;
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      .analysis{
+        background: url("../image/dataServe/idata_03.png") no-repeat center;
+        background-size: contain;
+        position: relative;
+        color: #ffffff;
+        font-size: 14px;
+        }
+      .bgpic{
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        //background-color: rgba(0,0,0,0.2);
+        background-image: url("../image/dataServe/pic_03.png");
+        right: -178px;
+        bottom: -70px;
+      }
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    .tipbtn{
+      ul{
+        width: @size;
+        height: 120px;
+        margin: 0 auto;
+        li{
+          min-width: 240px;
+          max-width: 300px;
+          margin:0 10px;
+          height: @size;
+          a{
+            font-size: 24px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .serve{
+      .box{
+        .analysis {
+          width: 676px;
+          height: 450px;
+          margin: 70px auto;
+          .licon {
+            width: 240px;
+            height: auto;
+            position: absolute;
+            top: -62px;
+            left: -119px;
+            img {
+              width: @size;
+            }
+          }
+          .ricon {
+            width: 180px;
+            height: 60px;
+            line-height: 56px;
+            position: absolute;
+            right: 36px;
+            top: 0;
+            color: #a95307;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            background: url("../image/dataServe/idata_02.png") no-repeat center;
+            background-size: contain;
+          }
+          .stext {
+            padding: 50px;
+            text-align: center;
+            .sask {
+              padding: 10px 0;
+              color: #feffc6;
+              font-size: 18px;
+              line-height: 30px;
+              background: url("../image/dataServe/idata_04.png") no-repeat bottom;
+              background-size: 60%;
+              margin-bottom: 5px;
+            }
+            .scontent {
+              border: 1px solid #00ffcd;
+              border-radius: 8px;
+              width: 80%;
+              margin: 10px auto;
+              padding: 10px;
+            }
+            .spec{
+              padding: 60px 10px;
+            }
+          }
+          .btext {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            p {
+              float: left;
+              &.dtext {
+                width: 20%;
+                margin-right: 45px;
+                font-size: 20px;
+              }
+              &.ptext {
+                width: 70%;
+                color: #00ffcd;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .tipbtn{
+      ul{
+        width: @size;
+        height: 80px;
+        li{
+          min-width: 192px;
+          height: @size;
+          a{
+            font-size: 20px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .serve{
+      .box{
+        .analysis{
+          width: 550px;
+          height: 320px;
+          margin: 20px auto 80px;
+          .licon{
+            width: 160px;
+            height: auto;
+            position: absolute;
+            top: -54px;
+            left: -68px;
+            img {
+              width: @size;
+            }
+          }
+          .ricon {
+            width: 140px;
+            height: 50px;
+            line-height: 48px;
+            position: absolute;
+            right: 32px;
+            top: 0;
+            color: #a95307;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            background: url("../image/dataServe/idata_02.png") no-repeat center;
+            background-size: contain;
+          }
+          .stext {
+            padding: 24px 24px 10px;
+            text-align: center;
+            .sask {
+              padding: 10px 0;
+              color: #feffc6;
+              font-size: 18px;
+              line-height: 30px;
+              background: url("../image/dataServe/idata_04.png") no-repeat bottom;
+              background-size: 60%;
+              margin-bottom: 5px;
+            }
+            .scontent {
+              font-size: 12px;
+              border: 1px solid #00ffcd;
+              border-radius: 8px;
+              width: 90%;
+              margin: 10px auto;
+              padding: 10px;
+            }
+            .spec{
+              padding: 47px 10px;
+            }
+          }
+          .btext {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            p {
+              float: left;
+              &.dtext {
+                width: 30%;
+                margin-right: 20px;
+                margin-top: 8px;
+                font-size: 20px;
+              }
+              &.ptext {
+                font-size: 12px;
+                width: 65%;
+                color: #00ffcd;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .tipbtn{
+      width: @size;
+      ul{
+        width: 90%;
+        overflow: hidden;
+        min-height: 160px;
+        display: block;
+        li{
+          float: left;
+          width: 50%;
+          background: url("../image/index/icon_yd.png") no-repeat center center;
+          background-size: contain;
+          height: 50%;
+          min-height: 80px;
+          margin-bottom: 10px;
+          a{
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .serve{
+      .box{
+        padding-top: 20px;
+        width: @size;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .analysis{
+          background-color: #101b4b;
+          background-image: none;
+          border: 1px solid #00b3ee;
+          width: 90%;
+          flex: 1;
+          margin: 10px auto 30px;
+          font-size: 12px;
+          border: 2px solid #23adfc;
+          box-shadow: 0 0 8px #218fd3;
+          border-radius: 8px;
+          .ricon {
+            width: 140px;
+            height: 50px;
+            line-height: 48px;
+            position: absolute;
+            right: 0;
+            top: -26px;
+            color: #a95307;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            background: url("../image/dataServe/idata_02.png") no-repeat center;
+            background-size: contain;
+          }
+          .stext {
+            padding: 24px 24px 10px;
+            text-align: center;
+            .sask {
+              padding: 10px 0;
+              color: #feffc6;
+              font-size: 18px;
+              line-height: 30px;
+              background: url("../image/dataServe/idata_04.png") no-repeat bottom;
+              background-size: 60%;
+              margin-bottom: 5px;
+            }
+            .scontent {
+              font-size: 14px;
+              border: 1px solid #00ffcd;
+              border-radius: 8px;
+              width: @size;
+              margin: 10px auto;
+              padding: 10px 5px;
+            }
+            .spec{
+              padding: 47px 10px;
+            }
+          }
+          .btext {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            p.dtext{
+              font-size: 22px;
+            }
+            p.ptext{
+              font-size: 14px;
+              color: #00ffcd;
+              line-height: 20px;
+              margin: 15px auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

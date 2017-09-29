@@ -1,0 +1,69 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>百亿云 定制开发数据分析系统</title>
+    <meta name="keywords" content="大数据，数据挖掘，定制开发，网站设计">
+    <meta name="description" content="定制开发数据分析系统，专业大数据分析服务，网络定制设计与运营分析，用数据创造百亿价值">
+    <meta name="author" content="百亿云">
+    <link rel="shortcut icon" href="/oweb/Public/image/byy.png">
+    <!-- Bootstrap -->
+    <link href="/oweb/Public/source/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/oweb/Public/source/jquery/dist/jquery.min.js"></script>
+    <script src="/oweb/Public/source/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--<link rel="stylesheet" href="./public/css/index.css">-->
+    <link rel="stylesheet" href="/oweb/Public/css/index.css">
+    <link rel="stylesheet" href="/oweb/Public/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/oweb/Public/source/animate/animate.min.css">
+    <script src="/oweb/Public/js/common.js"></script>
+    <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=INbjPIuG9bikogozO5m0TZIwrH49xbd4"></script>-->
+</head>
+<body>
+  <div class="contain" id="box" style="position: relative">
+      <p class="clogo" style="position: absolute;"><img src="/oweb/Public/image/logo.png" alt="公司logo"></p>
+      <div class="circle">
+          <img src="/oweb/Public/image/cir.png">
+      </div>
+  </div>
+  <script type="text/javascript">
+      var oBox = document.getElementById("box");
+      oBox.style.position = "relative";
+//      var timer = setInterval(function(){
+//          var oImg = $("<div></div>");
+//          var osize = Math.random()*40;
+//          $(oImg).css({
+//              "width": osize,
+//              "height": osize,
+//              "position": "absolute",
+//              "borderRadius": "50%",
+//              "left": Math.random()*1920+"px",
+//              "top": Math.random()*window.screen.availHeight+"px",
+//              "background-color": "#fff",
+////              "background-color": "rgba("+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+","+Math.random()+")"
+//          }).appendTo(oBox).animate({"opacity": 0},6000, function () {
+//              $(oImg).animate({
+//                  "opacity": 1,
+//                  "transition": "all 1s linear 2s"
+//              },3000, function () {
+//                  $(oImg).animate({
+//                      "opacity": 0,
+//                      "transition": "all 1s linear 2s"
+//                  })
+//              })
+//          })
+//      },400)
+      
+      $("body").on("click", function () {
+//          clearInterval(timer);
+          window.location.href = "<?php echo U('Home/index/main');?>"
+      })
+  </script>
+</body>
+</html>

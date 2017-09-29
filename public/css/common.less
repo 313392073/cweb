@@ -232,11 +232,12 @@
 //  主内容
   .main{
     width: @size;
-    //#allmap{
-    //  width: 80%;
-    //  height: 500px;
-    //  border: 1px solid red;
-    //}
+    #allmap{
+      //width: 80%;
+      //height: 500px;
+      //margin: 0 auto;
+      //border: 1px solid red;
+    }
   }
 
 //  页脚
@@ -384,7 +385,6 @@
       .fmain{
         ul.ftext{
           position: relative;
-          //border: 1px solid blue;
           margin-bottom: 140px;
           li{
             padding: 20px;
@@ -411,8 +411,8 @@
                 padding-left: 10px;
               }
             }
-
             &.qrcode{
+              height: auto;
               position: absolute;
               bottom: -140px;
               a{
@@ -425,9 +425,6 @@
               }
             }
           }
-        }
-        p.copyright{
-          //background-color: #2b669a;
         }
       }
     }

@@ -1,0 +1,234 @@
+@import "core";
+@import "common";
+.main{
+  background-color: #fffff8;
+  background-image: url("../image/common/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 500px;
+  background-size: 40% auto;
+  .tipbtn{
+    width: 100%;
+    ul{
+      display: flex;
+      width: auto;
+      margin: 0 auto;
+      justify-content: center;
+      li{
+        width: 25%;
+        flex: 1;
+        background: url("../image/index/tip.png") no-repeat center center;
+        background-size: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.tiplast{
+          margin-right: 0;
+        }
+        a{
+          color: #bef5ff;
+        }
+      }
+    }
+  }
+  .apply{
+    width: @size;
+    .apply_box{
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .tipbtn{
+      ul{
+        width: @size;
+        height: 120px;
+        margin: 0 auto;
+        li{
+          min-width: 240px;
+          max-width: 300px;
+          margin:0 10px;
+          height: @size;
+          a{
+            font-size: 24px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .apply{
+      width: @size;
+      margin: 0 auto;
+      .apply_box{
+        max-width: 80%;
+        overflow: hidden;
+        .licon{
+          padding-right: 20px;
+          padding-top: 20px;
+          float: left;
+          width: 30%;
+          max-width: 280px;
+          color: #5c0202;
+          text-align: right;
+          img{
+            min-width: 120px;
+            max-width: 250px;
+            width: 50%;
+            height: auto;
+            margin: 25px auto;
+          }
+          p{
+            font-family: Cambria;
+            text-indent: 25px;
+            &.atitle{
+              font-family: 微软雅黑;
+              font-size: 20px;
+              letter-spacing: 5px;
+            }
+          }
+        }
+        .rtext{
+          float: left;
+          width: 70%;
+          height: 310px;
+          position: relative;
+          p{
+            position: absolute;
+            right: 50px;
+            width: 90%;
+            max-width: 620px;
+            background: url("../image/apply/apply_05.png") no-repeat center;
+            background-size: contain;
+            height: 320px;
+            padding: 70px 50px;
+            color: #fff6d2;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .tipbtn {
+      ul {
+        width: @size;
+        height: 80px;
+        li {
+          min-width: 192px;
+          height: @size;
+          a{
+            font-size: 20px;
+            &:hover{
+              color: #1b4083;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .apply{
+      width: @size;
+      .apply_box{
+        width: 92%;
+        margin: 10px auto;
+        overflow: hidden;
+        padding-bottom: 15px;
+        .licon{
+          float: left;
+          width: 30%;
+          height: 300px;
+          img{
+            width: @size;
+            max-width: 180px;
+            height: auto;
+            margin: 20px auto;
+          }
+          p{
+            text-align: center;
+            font-family: Cambria;
+            &.atitle{
+              font-family: 微软雅黑;
+              font-size: 20px;
+              letter-spacing: 5px;
+            }
+          }
+        }
+        .rtext{
+          float: right;
+          width: 70%;
+          font-size: 14px;
+          p{
+            width: 470px;
+            background: url("../image/apply/apply_05.png") no-repeat center;
+            background-size: contain;
+            height: 320px;
+            margin: 0 auto;
+            padding: 70px 50px;
+            color: #fff6d2;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .tipbtn{
+      width: @size;
+      ul{
+        width: 90%;
+        overflow: hidden;
+        min-height: 160px;
+        display: block;
+        li{
+          float: left;
+          width: 50%;
+          background: url("../image/index/icon_yd.png") no-repeat center center;
+          background-size: contain;
+          height: 50%;
+          min-height: 80px;
+          margin-bottom: 10px;
+          a{
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .apply{
+      width: @size;
+      .apply_box{
+        width: 90%;
+        margin: 15px auto;
+        .licon{
+          width: @size;
+          margin: 0 auto;
+          text-align: center;
+          img{
+            width: 50%;
+            max-width: 280px;
+            margin-bottom: 10px;
+          }
+          p{
+            color: #b05555 ;
+            line-height: 30px;
+            &.atitle{
+              font-size: 20px;
+              font-weight: bold;
+            }
+          }
+        }
+        .rtext{
+          border: 2px solid #5c0202;
+          box-shadow: 0 0 5px #5c0202;
+          border-radius: 8px;
+          padding: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+}

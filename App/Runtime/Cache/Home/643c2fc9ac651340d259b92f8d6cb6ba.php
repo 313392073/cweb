@@ -1,0 +1,199 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>百亿云 定制开发数据分析系统</title>
+    <meta name="keywords" content="大数据，数据挖掘，定制开发，网站设计">
+    <meta name="description" content="定制开发数据分析系统，专业大数据分析服务，网络定制设计与运营分析，用数据创造百亿价值">
+    <meta name="author" content="百亿云">
+    <link rel="shortcut icon" href="/oweb/Public/image/byy.png">
+    <!-- Bootstrap -->
+    <link href="/oweb/Public/source/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/oweb/Public/source/jquery/dist/jquery.min.js"></script>
+    <script src="/oweb/Public/source/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/oweb/Public/css/team.css">
+    <link rel="stylesheet" href="/oweb/Public/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/oweb/Public/source/animate/animate.min.css">
+    <script src="/oweb/Public/js/common.js"></script>
+</head>
+<body>
+<div class="contain">
+    <!--头部-->
+    <div class="header">
+        <div class="banner">
+            <div class="banner">
+                <div id="lunbo" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators hidden-xs">
+                        <li data-target="#lunbo" data-slide-to="0" class="active"></li>
+                        <li data-target="#lunbo" data-slide-to="1"></li>
+                        <li data-target="#lunbo" data-slide-to="2"></li>
+                        <li data-target="#lunbo" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/oweb/Public/image/common/banner_02.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="/oweb/Public/image/common/banner_01.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="/oweb/Public/image/common/banner_03.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="/oweb/Public/image/common/banner_04.jpg" alt="...">
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#lunbo" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">上一张</span>
+                    </a>
+                    <a class="right carousel-control" href="#lunbo" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">下一张</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--导航-->
+    <div class="topbar">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navList" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="<?php echo U('Home/Index/games');?>" class="visible-xs-inline" id="navLeft"><span>点击进入</span><span>游戏云集</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navList">
+                    <ul class="nav navbar-nav">
+                        <li><a href="<?php echo U('Home/Index/main');?>"><span>首页</span><span class="desc">Home page</span></a></li>
+                        <li><a href="<?php echo U('Home/Index/dataServe');?>"><span>云定制</span><span class="desc">cloud customization</span></a></li>
+                        <li><a href="<?php echo U('Home/Index/cooperation');?>"><span>云合作</span><span class="desc">cloud cooperation</span></a></li>
+                        <li class="act"><a href="<?php echo U('Home/Index/team');?>"><span>云团队</span><span class="desc">cloud team</span></a></li>
+                        <li class="hidden-xs ltext"><a href="<?php echo U('Home/Index/games');?>"><span>点击进入</span><span>游戏云集</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--内容-->
+    <div class="main">
+        <div class="tipbtn animated rotateInUpLeft">
+            <ul>
+                <li id="btn01">
+                    <a href="javascript: void(0)">了解我们</a>
+                </li>
+                <li id="btn02">
+                    <a href="javascript: void(0)">公司文化</a>
+                </li>
+                <li id="btn03">
+                    <a href="javascript: void(0)">团队介绍</a>
+                </li>
+                <li class="tiplast">
+                    <a href="javascript: void(0)">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <div class="team animated slideInRight">
+            <div class="team_box">
+                <div class="about">
+                    <p class="hidden-xs about_title">了解百亿云</p>
+                    <p class="visible-xs-block about_title"></p>
+                    <p class="visible-xs-block">KNOW ABOUT BAIYY</p>
+                    <p class="about_desc">百亿元科技成立与2016年，拥有达10年开发经验的团队，在分布式和大数据领域具有绝对的开发优势，并获得两项发明专利。核心技术骨干来源于恺英网络、墨麟集团、育碧电脑游戏等知名上市网游公司及跨国公司。主导开发过用户量千万级的游戏作品。百亿云科技现主要专注于高端棋牌游戏定制开发，此外我司还承接网页游戏开发，APP应用开发，数据服务等业务！百亿云----- Use my mind by hundred, Design your game for billion！我们不仅仅满足于制作，我们更热爱创造！不仅贴合游戏市场需求，使用精湛技术完善游戏水平，更得益于在开发行业的多年技术积累，能够第一时间掌握关键技术，为您呈现身临其境的体验！百亿云科技将让您的构想成为财富！选择百亿云，选择成功！</p>
+                </div>
+                <div class="culture">
+                    <div class="cul_title">
+                        <p class="cul_tit"></p>
+                        <p>BAIYY CORPORATE CULTURE</p>
+                    </div>
+                    <div class="cul_bgpic">
+                        <div class="cul_pic"></div>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="intro_title">
+                        <p class="intro_tit"></p>
+                        <p>THIS IS OUR TEAM INTRODUCTION</p>
+                    </div>
+                    <div class="intro_pic">
+                        <div class="intro_r"><p class="team_g"></p></div>
+                        <div><p class="team_c"></p></div>
+                        <div class="intro_r"><p class="team_h"></p></div>
+                        <div><p class="team_q"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <div class="footer">
+        <div class="fmain">
+            <div class="xfooter">
+                <p class="ftitle">联系我们</p>
+                <p class="bgpic"></p>
+                <p>Address And Contact  </p>
+                <ul class="ftext">
+                    <li>
+                        <a href="javascript: void(0)" class="fftext" title="中国, 四川省成都市 高新区天府软件园G区8栋">
+                            <span class="icon-img"><i class="icon-map-marker"></i></span>
+                            <span>中国, 四川省成都市 高新区天府软件园G区8栋</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" title="s@baiyy.com">
+                            <span class="icon-img"><i class="icon-envelope-alt"></i></span>
+                            <span>s@baiyy.com</span>
+                        </a>
+                    </li>
+                    <li class="qrcode">
+                        <a href="javascript: void(0)">
+                            <img src="/oweb/Public/image/common/icon_er.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" class="fftel" title="028-67875646">
+                            <span class="icon-img"><i class="icon-phone"></i></span>
+                            <span>028-67875646</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0)" title="231 897 1816">
+                            <span class="icon-img"><i class="icon-user"></i></span>
+                            <span>231 897 1816</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright">Copyright © 2016 百亿云 蜀ICP备16007776号</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#btn01").on("click", function () {
+            $("html,body").animate({scrollTop : "680px"}, 400)
+        });
+        $("#btn02").on("click", function () {
+            $("html,body").animate({scrollTop : "960px"}, 800)
+        })
+        $("#btn03").on("click", function () {
+            $("html,body").animate({scrollTop : "1520px"}, 1000)
+        })
+    })
+</script>
+</body>
+</html>

@@ -5,6 +5,8 @@ li,
 p {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 ul,
 li {
@@ -356,6 +358,7 @@ li {
     padding-left: 10px;
   }
   .contain .footer .fmain ul.ftext li.qrcode {
+    height: auto;
     position: absolute;
     bottom: -140px;
   }
@@ -415,6 +418,10 @@ li {
     color: #fff;
     letter-spacing: 3px;
   }
+  .main .cop_main p {
+    height: auto;
+    width: auto;
+  }
   .main .cop_main .cop_title {
     font-size: 36px;
     border-bottom: 2px solid #035174;
@@ -448,6 +455,10 @@ li {
     color: #fff;
     font-weight: bold;
   }
+  .main .cop_pro .pro_box > div p {
+    height: auto;
+    width: auto;
+  }
   .main .cop_pro .pro_box > div img {
     width: 40%;
     height: auto;
@@ -478,6 +489,10 @@ li {
     font-weight: bold;
     color: #fff;
     letter-spacing: 3px;
+  }
+  .main .cop_main p {
+    height: auto;
+    width: auto;
   }
   .main .cop_main .cop_title {
     font-size: 36px;
@@ -511,6 +526,10 @@ li {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
+  }
+  .main .cop_pro .pro_box > div p {
+    height: auto;
+    width: auto;
   }
   .main .cop_pro .pro_box > div img {
     width: 40%;
@@ -546,6 +565,10 @@ li {
     color: #fff;
     letter-spacing: 3px;
   }
+  .main .cop_main p {
+    height: auto;
+    width: auto;
+  }
   .main .cop_main .cop_title {
     font-size: 30px;
     border-bottom: 2px solid #035174;
@@ -561,26 +584,25 @@ li {
   }
   .main .cop_pro .pro_box {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .main .cop_pro .pro_box .pro_l {
-    width: 100%;
-    height: 210px;
-    background: url("../image/cop/cop_02.png") no-repeat center;
-    background-size: contain;
-    text-align: center;
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 20px;
+    width: 33%;
+    margin: 0 5px;
+    padding: 5px;
+    flex: 1;
+    font-size: 14px;
     font-weight: bold;
-    color: #fff;
+    text-align: center;
+  }
+  .main .cop_pro .pro_box .pro_l p {
+    height: auto;
+    width: auto;
   }
   .main .cop_pro .pro_box .pro_l img {
-    width: 36%;
-    max-width: 135px;
-    min-width: 120px;
-    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
   }
 }

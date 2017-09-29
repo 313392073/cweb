@@ -5,6 +5,8 @@ li,
 p {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 ul,
 li {
@@ -356,6 +358,7 @@ li {
     padding-left: 10px;
   }
   .contain .footer .fmain ul.ftext li.qrcode {
+    height: auto;
     position: absolute;
     bottom: -140px;
   }
